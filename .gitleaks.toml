@@ -1,0 +1,5 @@
+[[rules]]
+id = "assignment-fake-aws-key"
+description = "Detect the fake AWS key used in this assignment"
+regex = '''AKIAIOSFODNN7EXAMPLE'''
+tags = ["secret", "assignment"]
